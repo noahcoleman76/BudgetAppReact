@@ -1,0 +1,97 @@
+body {
+    background-color: rgba(156, 243, 255, 0.781);
+}
+.balanced{
+    width: 60px;
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: black 2px solid;
+}
+.title{
+    color: rgb(48, 138, 180);
+    margin: 0;
+    font-size: 40px;
+    font-family: copperplate;
+}
+.blue{
+    background-color: #00C851;
+}
+.red {
+    background-color: #FF4444;
+}
+.big-border {
+    margin-top: 25px;
+    border-radius: 10px;
+    padding-bottom: 25px;
+    background-color: white;
+    margin-bottom: 10px;
+    border: solid 5px grey;
+}
+.balance{
+    font-size: 40px;
+    font-weight: 500;
+}
+.income{
+    font-size: x-large;
+    border: solid #00C851 5px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-right: 20px;
+}
+.expenses{
+    font-size: x-large;
+    border: solid #FF4444 5px;
+    border-radius: 10px;
+    padding: 5px;
+}
+.overflow{
+    height: 300px;
+    overflow-x: auto;
+}
+.history{
+    padding-left: 8px;
+}
+.fs{
+    font-size: 12px;
+}
+.donut{
+    height: 350px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.donutchart{
+    height: 200px;
+    width: 300px;
+}
+.donutchart-arcs{
+    height: 300px;
+}
+.delete{
+    margin-left: 10px;
+}
+.delete:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+.list-group-item:hover{
+    background-color: lightgray;
+    color: white;
+}
+.hidden{
+    display: none;
+}
+.notHidden{
+    padding-left: 25px;
+}
+.save{
+    background-color: rgb(48, 138, 180);
+    color: white;
+}
+.save:hover{
+    color: white;
+    opacity: 80%;
+}
+.save:active{
+    color: white;
+    transform: scale(.9);
+}
